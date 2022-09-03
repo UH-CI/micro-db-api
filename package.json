@@ -9,6 +9,7 @@
   "author": "Jared McLean",
   "license": "ISC",
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "compression": "^1.7.4",
     "console-stamp": "^3.0.2",
     "csv-parser": "^3.0.0",

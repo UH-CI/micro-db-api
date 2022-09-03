@@ -4,3 +4,4 @@ server.key
 server.csr
 *.zip
 test/
+sendgrid.env
