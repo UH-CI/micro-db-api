@@ -457,6 +457,20 @@ app.get("/raster", async (req, res) => {
   });
 });
 
+app.get("/test", async (req, res) => {
+  let mailOptions = {
+    to: "ckkondo@hawaii.edu",
+    text: "TEST TEST",
+    html: "<p>" + "TEST TEST" + "</p>",
+  };
+
+  let emailStatus = await sendEmail(transporterOptions, mailOptions);
+  //if email send failed throw error for logging
+  if (!emailStatus.success) {
+    console.log(emailStatus, "error error >");
+  }
+});
+
 app.post("/genzip/email", async (req, res) => {
   const permission = "basic";
   await handleReq(req, res, permission, async (reqData) => {

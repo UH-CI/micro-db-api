@@ -16,7 +16,8 @@
             "permissions": ["basic", "db"]
         }
     },
-    "administrators": ["mcleanj@hawaii.edu", "seanbc@hawaii.edu"],
+    "administrators": ["seanbc@hawaii.edu"],
+    "permissions": ["seanbc", "ikewai-admin", "microdb-admin", "ckkondo"],
     "email": {
         "from": "no-reply-hcdp@hawaii.edu",
         "subject": "HCDP Data"
