@@ -1,6 +1,6 @@
 
 {
-    "port": 443,
+    "port": 421,
     "smtp": "smtp.hawaii.edu",
     "smtpPort": 25,
     "key": "key.pem",

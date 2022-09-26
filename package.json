@@ -9,6 +9,7 @@
   "author": "Chaz Kondo",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
     "console-stamp": "^3.0.2",
     "csv-parser": "^3.0.0",
     "dotenv": "^16.0.2",

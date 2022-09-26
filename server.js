@@ -117,6 +117,8 @@ app.post("/requests", async (req, res) => {
   // const permission = "db";
   let message = "Request successful!";
 
+  req.body.status = "PENDING";
+
   req.body.permissions = [
     { username: permissionsArr[0], permissions: "ALL" },
     { username: permissionsArr[1], permissions: "ALL" },
